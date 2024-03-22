@@ -17,6 +17,7 @@ describe('When logged in', async () => {
         await page.click('a.btn-floating')
     })
 
+    
     test('can see blog create form', async () => {
         await page.login();
         await page.click('a.btn-floating')
