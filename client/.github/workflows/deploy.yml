@@ -34,7 +34,9 @@ jobs:
       - name: Cache dependencies
         uses: actions/cache@v2
         with:
-          path: node_modules
+          path: | 
+            node_modules
+            client/node_modules
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
@@ -43,6 +45,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
+
       - name: Install Dependencies
         run: |
           npm install --legacy-peer-deps
