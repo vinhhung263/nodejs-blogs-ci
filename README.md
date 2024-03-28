@@ -14,3 +14,13 @@ Starting project for a course on Advanced Node @ Udemy
 https://github.com/StephenGrider/AdvancedNodeStarter
 
 https://github.com/zbsedefian/Advanced-Node-Concepts
+
+**Walkthrough**
+
+![Screenshot 2024-03-28 102942](https://github.com/vinhhung263/nodejs-blogs-ci/assets/62415557/ede96c76-b235-4d39-85c3-304d7870c1b5)
+
+![image](https://github.com/vinhhung263/nodejs-blogs-ci/assets/62415557/34c9cefd-8f44-4355-9874-5dbc0ba36292)
+
+**Homepage**
+
+![image](https://github.com/vinhhung263/nodejs-blogs-ci/assets/62415557/e505c500-a065-4c90-af4c-3d1e7cbd2d8f)
