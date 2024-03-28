@@ -17,7 +17,7 @@ describe('When logged in', async () => {
         await page.click('a.btn-floating')
     })
 
-    
+
     test('can see blog create form', async () => {
         await page.login();
         await page.click('a.btn-floating')
@@ -82,18 +82,6 @@ describe('User is not logged in', async () => {
             }
         }
     ]
-
-    // test.only('User cannot create blog posts', async () => {
-    //     const result = await page.post('/api/blogs', { title: 'My Title', content: 'My Content' })
-
-    //     expect(result).toEqual({ error: 'You must log in!' })
-    // })
-
-    // test('User cannot get a list blogs', async () => {
-    //     const result = await page.get('/api/blogs')
-
-    //     expect(result).toEqual({ error: 'You must log in!' })
-    // })
 
     test('Blog related actions are prohibited', async () => {
         const results = await page.execRequests(actions)

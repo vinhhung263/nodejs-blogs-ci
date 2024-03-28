@@ -20,7 +20,6 @@ class CustomPage {
     }
 
     constructor(page) {
-        // this.browser = browser
         this.page = page
     }
 
